@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background: rgb(119,181,235);
+  background: radial-gradient(circle, rgba(119,181,235,1) 0%, rgba(158,213,130,1) 54%, rgba(231,176,230,1) 100%);
+  min-height: 1000px;
+}
+
+.Credit {
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background: rgb(0,94,187);
+  background: linear-gradient(0deg, rgba(0,94,187,0.4318102240896359) 16%, rgba(0,0,0,0.4962359943977591) 100%);  
+}

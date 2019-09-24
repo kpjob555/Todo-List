@@ -1,0 +1,31 @@
+.AddTodo {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.AddTodo input {
+    height: 35px;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+    font-size: 20px;
+    border: 0ch;
+}
+
+@media (max-width: 412px){
+    .AddTodo input {
+        height: 60px;
+        width: 90%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 361px){
+    .AddTodo input {
+        height: 40px;
+        width: 80%;
+        font-size: 14px;
+    }
+}

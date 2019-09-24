@@ -1,0 +1,32 @@
+.Headers {
+    background: rgb(23,79,135);
+    background: linear-gradient(90deg, rgba(23,79,135,1) 0%, rgba(53,126,199,1) 35%, rgba(111,173,236,1) 100%);
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.Headers Button{
+    font-size: 20px;
+    color: white;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.7s;
+}
+
+
+@media (max-width: 412px) {
+    .Headers Button{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 361px) {
+    .Headers Button{
+        font-size: 12px;
+        padding: 5px;
+        margin: 5px;
+    }
+}

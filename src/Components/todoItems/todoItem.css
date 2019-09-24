@@ -1,0 +1,23 @@
+.EditTodo input {
+    height: 35px;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px;
+    font-size: 20px;
+    border: 0ch;
+}
+
+.EditTodoBox {
+    
+        height:35px;
+        width: 50%;
+        margin: 20px;
+        text-align: center;
+        border-Radius: 10px;
+        box-shadow: 1px 1px 3px;
+        font-size: 18px;
+        border: 0ch;
+     
+}

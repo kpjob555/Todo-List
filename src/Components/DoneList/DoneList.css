@@ -1,0 +1,67 @@
+.DoneList table{
+    position: absolute;
+    left: 100px;
+    border-collapse: collapse; 
+    border-radius: 10px;
+    min-width: 50%;
+    width: 80%;
+    margin: 20px;
+    box-shadow: 0.5px 0.5px 2px;
+    text-align: center;
+
+  }
+
+.DoneList th {
+    height: 60px;
+    font-size: 26px;
+    background: rgb(83,116,198);
+    background: radial-gradient(circle, rgba(83,116,198,0.7091211484593838) 0%, rgba(177,74,214,0.9051995798319328) 100%);  
+    color: whitesmoke;
+    padding: 10px;
+    transition: 0.7s;
+  }
+
+.DoneList td {
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.7091211484593838) 0%, rgba(255,255,255,0.2945553221288515) 100%);
+    box-shadow: 0px 0.5px 1px;
+}
+
+@media (max-width: 412px) {
+  .DoneList table{
+    margin: 10px;
+    left: 8%;
+    DoneListmin-width: 30%;
+  }
+  .DoneList th {
+    height: 30px;
+    font-size: 18px;
+    padding: 6px;
+  }
+  .DoneList td{
+    height: 15px;
+    font-size: 14px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 769px) {
+  .DoneList table{
+    margin: 15px;
+    left: 8%;
+    min-width: 35%;
+  }
+  .DoneList th {
+    height: 30px;
+    font-size: 20px;
+    padding: 8px;
+  }
+  .DoneList td{
+    height: 15px;
+    font-size: 16px;
+    padding: 7px;
+  }
+}
